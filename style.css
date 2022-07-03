@@ -1,0 +1,413 @@
+@font-face {
+    font-family: Harmond;
+    src: url(C:\USERS\NOMAN\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\HARMOND-SEMIBOLDCONDENSED.OTF);
+}
+@font-face {
+    font-family: Norman;
+    src: url(C:\USERS\NOMAN\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\NORMAN-REGULAR-1.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    min-height: 100vh;
+    width: 100vw;
+}
+#first{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+#nav{
+    background-color: transparent;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#nav p{
+    margin-right: 10vw;   
+}
+#circlef{
+    background-color: #F5C800;
+    width: 12vw;
+    height: 25vh;
+    border-radius: 50%;
+    
+    margin-top: -34vh;
+    margin-left: 32vw;
+}
+#first h1{
+    font-size: 38vh;
+    /* position: absolute; */
+    font-family: "Harmond";
+    font-weight: 300;
+    /* left: 28.5vw;
+    top: 29vh; */
+}
+#onediv{
+    position: absolute;
+    left: 43%;
+    top: 46%;
+    transform: translate(-50%,-50%);
+}
+#footer{
+    position: absolute;
+    width: 35vw;
+    bottom: 12vh;
+    left: 58vw;
+}
+#second{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+#mainheading{
+    position: absolute;
+    left: -11vw;
+}
+#mainheading h1 {
+    width: 60vw;
+    font-size: 35vw;
+    color: #F5C800;
+    font-weight: 100;
+    letter-spacing: -1.5vw;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ttxt{
+    height: 37vw;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+#second img{
+    width: 50vw;
+    height: 105vh;
+    position: absolute;
+    top: 13vh;
+    left: 19vw;
+}
+#third{
+    width: 100vw;
+    height: 250vh;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+#mainheading1{
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#mainheading1 h1 {
+    font-size: 18vw;
+    font-weight: 100;
+    font-family: "Norman";
+    letter-spacing: 1vw;
+    /* text-transform: uppercase; */
+    display: flex;
+    flex-direction: row;
+}
+.ttxt1{
+    position: relative;
+    overflow: hidden;
+    width: 63vw;
+    background-color: white;
+}
+.circlej{
+    width: 65vw;
+    height: 130vh;
+    background-color: #f5c800;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    right: -9vw;
+    top: 62vh;
+}
+
+#footer1{
+    position: absolute;
+    width: 25vw;
+    top: 70vh;
+    left: 50vw;
+    z-index: 7;
+}
+
+.tp1{
+    display: flex;
+    flex-direction: column;
+    height: 3vh;
+    overflow: hidden;
+}
+
+.tp2{
+    display: flex;
+    flex-direction: column;
+    height: 3vh;
+    overflow: hidden;
+}
+
+.tp3{
+    display: flex;
+    flex-direction: column;
+    height: 3vh;
+    overflow: hidden;
+}
+
+#pk1{
+    background-image: url(https://images.unsplash.com/photo-1468359601543-843bfaef291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#pk2{
+    background-image: url(https://images.unsplash.com/photo-1521406541448-d5b9190bfbcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1785&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#pk3{
+    background-image: url(https://images.unsplash.com/photo-1468359601543-843bfaef291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#pk4{
+    background-image: url(https://images.unsplash.com/photo-1521406541448-d5b9190bfbcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1785&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#pk5{
+    background-image: url(https://images.unsplash.com/photo-1468359601543-843bfaef291a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.ttxt3 p{
+    
+    background-color: red;
+}
+
+.ttxt3 span{
+    height: 5vh;
+    /* background-color: #f5c800; */
+}
+.enlarge{
+    display: flex;
+    flex-direction: column;
+}
+#mid{
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    top: 94vh;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+#photoseries{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    overflow: auto;
+    gap: 3vw;
+}
+#photoseries .photo{
+    position: relative;
+    width: 30vw;
+    height: 40vh;
+    flex-shrink: 0;
+    filter: grayscale(1);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#photoseries .photo:hover{
+    filter: grayscale(0);
+}
+
+/* uncomment downcode to hide the scroll */
+#photoseries::-webkit-scrollbar{
+    display: none;
+}
+
+.photo .head{
+    position: absolute;
+    top: -3vh;
+}
+.photo .foot{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -3vh;
+}
+
+
+#last .z{
+    position: absolute;
+    bottom: 65vh;
+    left: 17vw;
+}
+#lastlast{
+    position: absolute;
+    bottom: 30vh;
+    left: 17vw;
+    font-size: 1vw;
+}
+#fourth{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+}
+#mainheading5{
+    position: absolute;
+    top: 2vh;
+    left: 20vw;
+}
+#mainheading5 h1 {
+    font-weight: 100;
+    display: flex;
+    font-size: 35vh;
+    font-family: "Harmond";
+    line-height: 28vh;
+    letter-spacing: 0.5vw;
+}
+.ttxt5{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+#circlefo{
+    border-radius: 50%;
+    width: 10vw;
+    height: 20vh;
+    background-color: #f5c800;
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+}
+#footer5{
+    position: absolute;
+    width: 25vw;
+    top: 65vh;
+    left: 45vw;
+    z-index: 7;
+}
+#fifth{
+    background-color: white;
+    width: 100vw;
+    height: 110vh;
+    position: relative;
+}
+#line{
+    background-color: black;
+    width: 90vw;
+    height: 0.3vh;
+    /* position: absolute;
+    top: 95vh; */
+    margin-left: 5vw;
+}
+#content{
+    margin-left: 10vw;
+    width: 80vw;
+    /* position: absolute;
+    top: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    maRgin-top: 4vh;
+}
+#line1{
+    background-color: black;
+    width: 90vw;
+    height: 0.3vh;
+    /* position: absolute;
+    top: 115vh; */
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+#content1{
+    margin-left: 10vw;
+    width: 80vw;
+    /* position: absolute;
+    top: 120vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+.contentp{
+    width: 12vw;
+}
+#footerfif{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+#footerfif h1{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    font-family: "Harmond";
+    font-size: 30vh;
+}
+
+#am1{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#textm{
+    width: 20vw;
+    height: 5vh;
+    overflow: hidden;
+    /* background-color: #f5c8003c; */
+}
+
+#textm h1{
+    opacity: 0;
+    z-index: 9999;
+}
+
+
+.mainh{
+    position: absolute;
+    top: -9vh;
+    left: 2vw;
+    z-index: 12;
+}
+.mainh h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    mix-blend-mode: difference;
+}
+.footerh{
+    position: absolute;
+    bottom: -15vh;
+    font-size: 3vh;
+}
